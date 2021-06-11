@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@media (max-width: 600px) {
+  div {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .air {
+    margin-top: 10px;
+    height: 100px;
+    width: 140px;
+  }
+
+  a {
+    font-size: medium;
+  }
+
+  a.fa {
+    padding: 12px;
+  }
+
+  .Arr {
+    margin-top: 100px;
+  }
+}
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #00CCFF;
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 20px;
+  background: #00CCFF;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: white;
+}
+.dark {
+  background-color: black;
+  color: orange;
+}
+
+/*# sourceMappingURL=styles.css.map*/
